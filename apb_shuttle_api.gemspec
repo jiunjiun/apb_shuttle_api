@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ApbShuttleApi::VERSION
   spec.authors       = ["jiunjiun"]
   spec.email         = ["quietmes@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{APB-Shuttle API}
+  spec.description   = %q{This API helps developers easy get APB Shuttle info.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
