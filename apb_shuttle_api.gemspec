@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["quietmes@gmail.com"]
   spec.summary       = %q{APB-Shuttle API}
   spec.description   = %q{This API helps developers easy get APB Shuttle info.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jiunjiun/apb_shuttle_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
