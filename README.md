@@ -64,7 +64,7 @@ ApbShuttleApi.all_orange(1)  # limit = 1
 ```ruby
 ApbShuttleApi.info
 ```
----
+
 
 ## Copyright / License
 * Copyright (c) 2015 jiunjiun (quietmes At gmail.com)
