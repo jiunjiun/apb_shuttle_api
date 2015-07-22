@@ -1,6 +1,8 @@
 # ApbShuttleApi
 
-TODO: Write a gem description
+This API helps developers easy get APB Shuttle info.
+
+Details document: [http://apb-shuttle.info/api/doc](http://apb-shuttle.info/api/doc)
 
 ## Installation
 
@@ -20,12 +22,50 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+* 最新車表 - Now
+* 下一班車表 - Next
+* 全部車表 - All
+* 其他資訊 - Info
 
-## Contributing
+```ruby
+require 'apb_shuttle_api'
+```
 
-1. Fork it ( https://github.com/[my-github-username]/apb_shuttle_api/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+### 最新車表 - Now
+```ruby
+ApbShuttleApi.now
+```
+
+### 下一班車表 - Next
+```ruby
+ApbShuttleApi.next(1) # next 1
+ApbShuttleApi.next(5) # next 5
+```
+
+### 全部車表 - All
+```ruby
+ApbShuttleApi.all
+ApbShuttleApi.all(1)  # limit = 1
+```
+
+#### 全部車表 - All APB
+```ruby
+ApbShuttleApi.all_apb
+ApbShuttleApi.all_apb(1)  # limit = 1
+```
+
+#### 全部車表 - All Orange (亞通客運)
+```ruby
+ApbShuttleApi.all_orange
+ApbShuttleApi.all_orange(1)  # limit = 1
+```
+
+### 其他資訊 - Info
+```ruby
+ApbShuttleApi.info
+```
+---
+
+## Copyright / License
+* Copyright (c) 2015 jiunjiun (quietmes At gmail.com)
+* Licensed under [MIT](https://github.com/jiunjiun/apb-shuttle/blob/master/LICENSE) licenses.
