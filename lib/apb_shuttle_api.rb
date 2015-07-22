@@ -1,8 +1,10 @@
+# encoding: utf-8
 require "apb_shuttle_api/version"
+
 require "open-uri"
 require "json"
 
-class ApbShuttleApi
+module ApbShuttleApi
   @base_url = "http://apb-shuttle.info/api"
 
   def self.now
