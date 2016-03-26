@@ -5,7 +5,7 @@ require "open-uri"
 require "json"
 
 module ApbShuttleApi
-  @base_url = "http://apb-shuttle.info/api"
+  @base_url = "http://api.apb-shuttle.info"
 
   def self.now
     JSON.load(open("#{@base_url}/now.json"))
