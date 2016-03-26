@@ -2,7 +2,7 @@
 
 This API helps developers easy get APB Shuttle info.
 
-Details document: [http://apb-shuttle.info/api/doc](http://apb-shuttle.info/api/doc)
+Details document: [https://apb-shuttle.info/doc/api](https://apb-shuttle.info/doc/api)
 
 ## Installation
 
